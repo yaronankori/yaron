@@ -1,0 +1,7 @@
+config BR2_PACKAGE_YARON
+	bool "yaron"
+	default n
+	help
+	  yaron is an exapmple of a program build with woutotolls for to be add to buildroot
+
+comment "yaron no needs any toolchan , dynamic library, threads" 
